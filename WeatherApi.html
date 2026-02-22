@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Weather API</title>
+        <link rel="icon" type="image/png" href="premium_vector-1727955580797-f97990d07b93.jpg">
+        <link rel="stylesheet" href="WeatherApi.css">
+    </head>
+    <body>
+        <audio autoplay loop>
+            <source src="beabadoobee_-_Glue_Song_(mp3.pm).mp3" type="audio/mpeg">
+        </audio>
+        <div class="vide">
+            <video muted loop autoplay playsinline>
+                <source src="vecteezy_the-ship-is-going-to-ocean-in-a-rainy-day_35549111.mp4">
+            </video>
+            <div class="effect">
+                <input type="text" id="city" placeholder="Enter City">
+                <button onclick="getweather()">Get Weather</button>
+                <h2 id="result"></h2>
+                <br>
+                <div class="scene">
+                    <div class="cube" id="cube">
+                        <div class="face" id="front">Sunny</div>
+                        <div class="face" id="back">Rainy</div>
+                        <div class="face" id="right">Cloudy</div>
+                        <div class="face" id="left">Cold</div>
+                        <div class="face" id="top">Snowy</div>
+                        <div class="face" id="bottom">Hot</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="WeatherApi.js"></script>
+    </body>
+</html>
